@@ -1,4 +1,8 @@
 {
-  "alwaysThinkingEnabled": false,
-  "model": "opus"
+  "alwaysThinkingEnabled": true,
+  "statusLine": {
+    "type": "command",
+    "command": "/home/infinity/.claude/statusline/statusline.sh"
+  },
+  "outputStyle": "direct-objective"
 }

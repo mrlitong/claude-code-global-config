@@ -7,7 +7,17 @@
 - `settings.json` - 全局设置（模型选择、思考模式等）
 - `settings.local.json` - 本地权限设置
 - `output-styles/` - 自定义输出风格
+- `statusline/` - 状态栏脚本和会话文件
 - `.gitignore` - Git忽略规则
+
+## 更新日志
+
+### 2025-09-30
+
+- 启用思考模式 (`alwaysThinkingEnabled: true`)
+- 配置自定义状态栏显示 (`statusLine`)
+- 添加 `statusline/` 目录，包含状态栏脚本 `statusline.sh`
+- 设置输出风格为 `direct-objective`
 
 ## 使用方法
 
